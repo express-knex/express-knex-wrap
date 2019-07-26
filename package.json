@@ -1,6 +1,6 @@
 {
   "name": "express-knex-wrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for async router function for Express-Knex project",
   "main": "./lib/index.js",
   "scripts": {
@@ -28,6 +28,9 @@
   "author": "deksden",
   "license": "MIT",
   "release-it": {
+    "git": {
+      "requireCleanWorkingDir": false
+    },
     "hooks": {
       "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
     },
